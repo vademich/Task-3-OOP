@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("3. Найти площади фигур");
+        FiguresN3 emb1 = new FiguresN3();
+        emb1.r1 = 8;
+        emb1.R2 = 10;
+        System.out.println("Площадь первой фигуры = " + emb1.figure1());
+        System.out.println("Площадь первой фигуры = " + emb1.figure2());
+        System.out.println("Площадь первой фигуры = " + emb1.figure3());
+    }
+}
